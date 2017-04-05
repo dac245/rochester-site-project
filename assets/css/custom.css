@@ -1,0 +1,354 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+.left-border {
+    background-color: gainsboro;
+}
+
+body{
+    background-color: gainsboro;
+	margin-top: 0px;
+    
+}
+
+img{ 
+    min-width: 125px; 
+    max-width: 100%;
+    height: auto;
+}
+img.center-img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.main-section-text {
+
+    background-color: white;
+}
+
+.banner {
+	position: fixed;
+	width: 98.5%;
+	margin: 0px;
+	background-color: black;
+	color: #FD5F00;
+	font-family: 'Lora', serif;
+    /*Took out height*/
+}
+
+#title {
+    margin: 60px 4px 4px 4px;
+}
+
+.left-column {
+    height: 100vh;
+}
+
+.section-header {
+    background-color: white;
+}
+
+#rotation-menu {
+    
+    margin: auto;
+    text-align: center;
+    border: solid black 1px;
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+#rotation-menu li{
+    
+    border: solid black 1px;
+    
+}  
+
+.center {
+    text-align: center;
+}
+
+.floatright{
+	float: right;
+	padding-right: 5px;
+}
+
+.navbartext{
+	position: fixed;
+	float: left;
+	padding-left: 45%;
+	padding-top: .2%;
+	font-size: 2em;
+}
+
+a:link{
+    color: #FD5F00;
+    text-decoration: none;
+}
+a:visited{
+    color: #A65200;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.newslink a:link{
+    color: black;
+    text-decoration: none;
+}
+.newslink a:visited{
+    color: black;
+}
+.newslink a:hover{
+    text-decoration: underline;
+}
+
+.border{
+ 	border-bottom: 3px solid #fd5f00;
+ 	border-top: 3px solid #fd5f00;
+}
+
+.borderTop{
+	border-top: 3px solid #fd5f00;
+}
+
+.borderBot{
+	border-bottom: 3px solid #fd5f00;
+}
+
+table {
+	width: 33%;
+}
+
+.page-header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-top: solid #FD5F00 3px;
+    border-bottom: solid #FD5F00 3px;
+    background-color: white;
+}
+
+.blackbox {
+    margin-top: 15px;
+    border-top: solid 3px #FD5F00;
+    border-bottom: solid 3px #FD5F00;
+    font-size: 1.2em;
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.start-word {
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 3px solid #FD5F00;
+
+}
+
+/*
+INLINE MENU START
+*/
+div#inline ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    border-bottom: 3px solid #fd5f00;
+    border-top: 3px solid #fd5f00;
+}
+
+div#inline li {
+    float: left;
+}
+
+div#inline li a {
+    display: block;
+    color: #fd5f00;
+    text-align: center;
+    padding: 14px 24px;
+    text-decoration: none;
+}
+
+div#inline li a:hover {
+    background-color: #fd5f00;
+    color: black;
+}
+
+/*
+INLINE MENU END
+*/
+
+/* 
+DROPDOWN MENU CSS: START;
+REFERENCE: http://www.w3schools.com/css/css_dropdowns.asp
+*/
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+    padding: 0px 12px;
+    margin: 0px;
+    background-color: black;
+    color: #FD5F00;
+	
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: #FD5F00;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #4c4c4c;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*
+DROPDOWN MENU CSS: END;
+*/
+
+/*
+	This is the css section for the CLUB page and ATTRACTIONS page which makes the buttons 
+	of the page colorful and makes it stand out when you hover over them by
+	giving them a black border around them.
+*/
+
+
+.button{
+	padding: 60px;
+	border: none;
+	text-decoration: none;
+	width: 100%;
+}
+
+#button1{
+	background-color: tomato;
+	font-size: 1.2em;
+}
+#button2{
+	background-color: lightblue;
+	font-size: 1.2em;
+}
+#button3{
+	background-color: lightgreen;
+	font-size: 1.2em;
+}
+#button4{
+	background-color: yellow;
+	font-size: 1.2em;
+}
+#button5{
+	background-color: beige;
+	font-size: 1.2em;
+}
+#button6{
+	background-color: pink;
+	font-size: 1.2em;
+}
+#button7{
+	background-color: violet;
+	font-size: 1.2em;
+}
+#button8{
+	background-color: cyan;
+	font-size: 1.2em;
+}
+#button9{
+	background-color: orange;
+	font-size: 1.2em;
+}
+#button10{
+	background-color: silver;
+	font-size: 1.2em;
+}
+
+#chng{
+	text-align: center;
+    background-size: 50% 50%;
+    width: 50%;
+    height: 50%;
+    background-repeat: no-repeat;
+    max-width: 750px;
+    max-height: 750px;
+    
+}
+
+.button:hover{
+	border: 2px solid black;
+	padding: 58px;
+}
+
+.button:active{
+	border: 2px solid yellow;
+}
+
+.clubBody{
+	margin-left: 1%;
+	margin-right: 1%;	
+}
+
+.clickLearn{
+	font-size: 3.5em;
+	text-align: center;
+}
+
+.down{
+	margin-top: 15%;
+	border-style: none;
+	font-size: 50px;
+	background-color: gainsboro;
+}
+
+.colorbtn{
+	background-color: gainsboro;
+}
+
+#par1{
+	
+}
+#par2{
+	display: none;
+	
+}
+#par3{
+	display: none;
+	
+}
+#par4{
+	display: none;
+	
+}
+#par5{
+	display: none;
+}
+#par6{
+	display: none;
+}
+#par7{
+	display: none;
+}
+#par8{
+	display: none;
+}

@@ -1,0 +1,142 @@
+
+.left-border {
+    background-color: gainsboro;
+}
+
+body{
+    background-color: gainsboro;
+	margin-top: 0px;
+    
+}
+
+img{
+    min-width: 125px; 
+    max-width: 100%;
+    height: auto;
+}
+
+.main-section-text {
+
+    background-color: white;
+}
+
+.banner {
+	position: fixed;
+	width: 98.5%;
+	margin: 0px;
+	background-color: black;
+	color: #FD5F00;
+    /*Took out height*/
+}
+
+#title {
+    margin: 60px 4px 4px 4px;
+}
+
+.left-column {
+    /* I took out margin*/
+    /* I took out border*/
+    height: 100vh;
+}
+
+.section-header {
+    background-color: white;
+}
+
+#rotation-menu {
+    
+    margin: auto;
+    text-align: center;
+    border: solid black 1px;
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+#rotation-menu li{
+    
+    border: solid black 1px;
+    
+}  
+
+.center {
+    text-align: center;
+}
+
+.floatright{
+	float: right;
+}
+
+/* 
+DROPDOWN MENU CSS: START;
+REFERENCE: http://www.w3schools.com/css/css_dropdowns.asp
+*/
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+    padding: 0px 12px;
+    margin: 0px;
+    background-color: black;
+    color: #FD5F00;
+	
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*
+DROPDOWN MENU CSS: END;
+*/
+.page-header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-top: solid #FD5F00 3px;
+    border-bottom: solid #FD5F00 3px;
+    background-color: white;
+}
+
+.blackbox {
+    margin-top: 15px;
+    border-top: solid 3px #FD5F00;
+    border-bottom: solid 3px #FD5F00;
+    font-size: 1.2em;
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.start-word {
+    font-size: 1.5em;
+    font-weight: bold;
+   
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border-bottom: 3px solid #FD5F00;
+
+}
